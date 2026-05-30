@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIAKAS-APP — Transformasi Digital Pondok Pesantren</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================
+     HEADER
+     ========================================= -->
+<header class="header">
+  <div class="container header__inner">
+
+    <a href="#" class="header__logo">SIAKAS<span>-APP</span></a>
+
+    <nav class="header__nav" aria-label="Navigasi Utama">
+      <a href="#"         class="nav-link nav-link--active">Beranda</a>
+      <a href="#features" class="nav-link">Fitur</a>
+      <a href="#efficiency" class="nav-link">Efisiensi</a>
+      <a href="#" class="btn-demo">
+        <span class="material-symbols-outlined" style="font-size:18px">rocket_launch</span>
+        Coba Demo
+      </a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="icon-btn" aria-label="Notifikasi">
+        <span class="material-symbols-outlined">notifications</span>
+      </button>
+      <button class="icon-btn hamburger" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+        <span class="material-symbols-outlined" id="menuIcon">menu</span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menu Mobile">
+  <a href="#"          class="nav-link nav-link--active">Beranda</a>
+  <a href="#features"  class="nav-link">Fitur</a>
+  <a href="#efficiency" class="nav-link">Efisiensi</a>
+  <a href="#" class="btn-demo">
+    <span class="material-symbols-outlined">rocket_launch</span>
+    Coba Demo Gratis
+  </a>
+</nav>
+
+<main>
+
+<!-- =========================================
+     HERO
+     ========================================= -->
+<section class="hero">
+  <div class="container hero__inner">
+
+    <div class="hero__content">
+      <span class="badge">✦ Solusi SIAKAD Terpadu</span>
+
+      <h1 class="hero__title">
+        Transformasi Digital<br>
+        <em>Pondok Pesantren</em><br>
+        &amp; Sekolah
+      </h1>
+
+      <p class="hero__desc">
+        Kelola administrasi, keuangan, akademik, dan monitoring santri dalam satu platform yang aman, transparan, dan efisien. Dirancang khusus untuk ekosistem pendidikan Islam modern.
+      </p>
+
+      <div class="hero__cta">
+        <a href="https://release-assets.githubusercontent.com/github-production-release-asset/1254042815/4484f42e-0fe1-4381-876f-1b9e1872fb44?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-30T10%3A41%3A14Z&rscd=attachment%3B+filename%3Dapp-release.apk&rsct=application%2Fvnd.android.package-archive&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-30T09%3A41%3A01Z&ske=2026-05-30T10%3A41%3A14Z&sks=b&skv=2018-11-09&sig=nHD1DcbMxuzEjxpFDhcJh1dXyV%2FMWOLlWGiiCZQwbHw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MDEzNjAzNiwibmJmIjoxNzgwMTM0MjM2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OvsZvsVIckdQir1yXg9vcZXvWPZDlGW1mMhsADx4YJc&response-content-disposition=attachment%3B%20filename%3Dapp-release.apk&response-content-type=application%2Fvnd.android.package-archive" class="btn-primary">
+          Coba Demo Gratis
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+        <a href="#features" class="btn-outline">
+          Pelajari Selengkapnya
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__phone-wrap">
+        <img
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnQITdGauryinsqoT7wxqsjxuFScO1Jc9QjPuPg38Au_78wXnLZMAEgJH_n7DYEPa2y__mE4KvNt3FISGNywhkRDZt3Nv8ro1RexjG9C1HMe18-_IfjvdxmR80b3rKcF3XzKKAV8zp8edreFl4bOVb5HSft4x0v6SusxgQeeO6qkS53pQdGEN4HORu7WQq1bAMsKJES46u_BKHRCpFrhoKjSnrwY2pcfYZVHPe_va49ZkEeUXIOh28p4ikwKyvUAVadyaurgZl9UM"
+          alt="Tampilan aplikasi SIAKAS di smartphone"
+          class="hero__phone"
+          loading="eager"
+        >
+
+        <div class="hero__float-badge">
+          <div class="float-badge__icon">
+            <span class="material-symbols-outlined" style="font-size:20px">check_circle</span>
+          </div>
+          <div>
+            <span class="float-badge__label">SPP Terbayar ✓</span>
+            <span class="float-badge__sub">Oleh: Wali Santri Ahmad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- =========================================
+     STATS BAR
+     ========================================= -->
+<section class="statsbar">
+  <div class="container">
+    <div class="statsbar__inner">
+      <div class="statsbar__item reveal">
+        <span class="statsbar__value">500+</span>
+        <span class="statsbar__label">Institusi Terdaftar</span>
+      </div>
+      <div class="statsbar__divider"></div>
+      <div class="statsbar__item reveal reveal-delay-1">
+        <span class="statsbar__value">50k+</span>
+        <span class="statsbar__label">Santri Aktif</span>
+      </div>
+      <div class="statsbar__divider"></div>
+      <div class="statsbar__item reveal reveal-delay-2">
+        <span class="statsbar__value">Rp 2M+</span>
+        <span class="statsbar__label">Transaksi Diproses</span>
+      </div>
+      <div class="statsbar__divider"></div>
+      <div class="statsbar__item reveal reveal-delay-3">
+        <span class="statsbar__value">4.9 ★</span>
+        <span class="statsbar__label">Rating Pengguna</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     FEATURES
+     ========================================= -->
+<section class="features" id="features">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Dirancang untuk Semua Peran</p>
+      <h2 class="section-title">Satu Aplikasi, Tiga Peran Utama</h2>
+      <p class="section-desc">Menghubungkan seluruh ekosistem institusi pendidikan secara real-time dan transparan.</p>
+    </div>
+
+    <div class="features__grid">
+
+      <!-- Administrator -->
+      <div class="feature-card reveal">
+        <div class="feature-card__icon feature-card__icon--admin">
+          <span class="material-symbols-outlined">admin_panel_settings</span>
+        </div>
+        <h3 class="feature-card__title">Administrator</h3>
+        <p class="feature-card__desc">Kendali penuh atas operasional sekolah dengan dashboard analitik yang mendalam dan laporan real-time.</p>
+        <ul class="feature-list">
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">payments</span>
+            Manage SPP &amp; Keuangan
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">group</span>
+            Manajemen Santri &amp; User
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">monitoring</span>
+            Laporan Real-time
+          </li>
+        </ul>
+      </div>
+
+      <!-- Ustadz -->
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-card__icon feature-card__icon--ustadz">
+          <span class="material-symbols-outlined">history_edu</span>
+        </div>
+        <h3 class="feature-card__title">Ustadz &amp; Guru</h3>
+        <p class="feature-card__desc">Fokus pada pengajaran tanpa beban administrasi yang rumit. Semua proses ada di genggaman.</p>
+        <ul class="feature-list">
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">grade</span>
+            Input Nilai &amp; Tahfidz
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">calendar_month</span>
+            Jadwal &amp; Absensi
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">account_balance_wallet</span>
+            Monitoring Bisyarah
+          </li>
+        </ul>
+      </div>
+
+      <!-- Wali Santri -->
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-card__icon feature-card__icon--wali">
+          <span class="material-symbols-outlined">family_restroom</span>
+        </div>
+        <h3 class="feature-card__title">Wali Santri</h3>
+        <p class="feature-card__desc">Pantau perkembangan anak Anda kapan saja dan di mana saja dengan notifikasi yang akurat.</p>
+        <ul class="feature-list">
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">visibility</span>
+            Monitor Nilai &amp; Kedisiplinan
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">credit_score</span>
+            Bayar SPP Instan
+          </li>
+          <li class="feature-list__item">
+            <span class="material-symbols-outlined">mail</span>
+            Notifikasi Kehadiran
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     EFFICIENCY
+     ========================================= -->
+<section class="efficiency" id="efficiency">
+  <div class="container">
+    <div class="efficiency__inner">
+
+      <!-- Left: text -->
+      <div class="reveal">
+        <p class="section-eyebrow" style="text-align:left">Infrastruktur Terpercaya</p>
+        <h2 class="efficiency__title">Dibuat untuk Keandalan Maksimal</h2>
+        <p class="efficiency__desc">Kami memahami pentingnya integritas data di lingkungan pendidikan. Infrastruktur kami dibangun di atas teknologi terkini untuk memastikan akses cepat dan aman.</p>
+
+        <div class="efficiency__feats">
+          <div class="efficiency__feat">
+            <div class="efficiency__feat-icon">
+              <span class="material-symbols-outlined">speed</span>
+            </div>
+            <div>
+              <h4 class="efficiency__feat-title">Lightweight Engine</h4>
+              <p class="efficiency__feat-desc">Akses sangat cepat meskipun dengan koneksi internet terbatas. Dioptimalkan untuk perangkat seluler spek menengah.</p>
+            </div>
+          </div>
+
+          <div class="efficiency__feat">
+            <div class="efficiency__feat-icon">
+              <span class="material-symbols-outlined">cloud_sync</span>
+            </div>
+            <div>
+              <h4 class="efficiency__feat-title">Offline-First Architecture</h4>
+              <p class="efficiency__feat-desc">Data tetap tersedia meski tanpa internet. Sinkronisasi otomatis saat koneksi kembali tersedia.</p>
+            </div>
+          </div>
+
+          <div class="efficiency__feat">
+            <div class="efficiency__feat-icon">
+              <span class="material-symbols-outlined">lock</span>
+            </div>
+            <div>
+              <h4 class="efficiency__feat-title">Data Privacy &amp; Security</h4>
+              <p class="efficiency__feat-desc">Enkripsi tingkat tinggi untuk seluruh data pribadi santri dan transaksi keuangan sekolah.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: stats -->
+      <div class="stats-grid reveal reveal-delay-1">
+        <div class="stat-card stat-card--primary">
+          <span class="stat-card__value">99.9%</span>
+          <span class="stat-card__label">Uptime Server</span>
+        </div>
+        <div class="stat-card stat-card--secondary">
+          <span class="stat-card__value">256-bit</span>
+          <span class="stat-card__label">Encryption</span>
+        </div>
+        <div class="stat-card stat-card--surface">
+          <span class="stat-card__value">10k+</span>
+          <span class="stat-card__label">Active Users</span>
+        </div>
+        <div class="stat-card stat-card--container">
+          <span class="stat-card__value">Real<br>time</span>
+          <span class="stat-card__label">Syncing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     HOW IT WORKS
+     ========================================= -->
+<section class="howitworks">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Langkah Mudah</p>
+      <h2 class="section-title">Mulai dalam 3 Langkah</h2>
+      <p class="section-desc">Tidak perlu keahlian teknis. Siapapun bisa mulai menggunakan SIAKAS-APP dengan cepat.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step__number">01</div>
+        <div class="step__content">
+          <div class="step__icon">
+            <span class="material-symbols-outlined">app_registration</span>
+          </div>
+          <h3 class="step__title">Daftar &amp; Setup</h3>
+          <p class="step__desc">Daftarkan institusi Anda dan biarkan tim kami membantu proses onboarding dalam 1x24 jam.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+      </div>
+
+      <div class="step reveal reveal-delay-1">
+        <div class="step__number">02</div>
+        <div class="step__content">
+          <div class="step__icon">
+            <span class="material-symbols-outlined">import_contacts</span>
+          </div>
+          <h3 class="step__title">Import Data</h3>
+          <p class="step__desc">Impor data santri, guru, dan keuangan dari sistem lama Anda. Mendukung Excel, CSV, dan integrasi API.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true"></div>
+      </div>
+
+      <div class="step reveal reveal-delay-2">
+        <div class="step__number">03</div>
+        <div class="step__content">
+          <div class="step__icon">
+            <span class="material-symbols-outlined">rocket_launch</span>
+          </div>
+          <h3 class="step__title">Langsung Produktif</h3>
+          <p class="step__desc">Akses fitur lengkap dari hari pertama. Tim support kami siap 7×24 jam untuk membantu Anda.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     TESTIMONIALS
+     ========================================= -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Dipercaya Ribuan Pengguna</p>
+      <h2 class="section-title">Apa Kata Mereka?</h2>
+      <p class="section-desc">Bergabunglah bersama ratusan institusi yang telah merasakan manfaatnya.</p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-card__stars">★★★★★</div>
+        <p class="testi-card__text">"SIAKAS-APP benar-benar mengubah cara kami mengelola administrasi. Proses yang dulu membutuhkan 3 hari kini selesai dalam hitungan menit."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar testi-card__avatar--1">AS</div>
+          <div>
+            <span class="testi-card__name">Ahmad Syaifullah</span>
+            <span class="testi-card__role">Kepala Tata Usaha — Ponpes Al-Hikmah</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card testi-card--featured reveal reveal-delay-1">
+        <div class="testi-card__stars">★★★★★</div>
+        <p class="testi-card__text">"Fitur monitoring santri sangat membantu kami sebagai wali. Bisa pantau nilai, absensi, dan bayar SPP dari HP tanpa perlu ke kantor."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar testi-card__avatar--2">RM</div>
+          <div>
+            <span class="testi-card__name">Rina Marliana</span>
+            <span class="testi-card__role">Wali Santri — SMA Islam Terpadu Malang</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-card__stars">★★★★★</div>
+        <p class="testi-card__text">"Sebagai ustadz, saya sangat terbantu untuk input nilai dan absensi. Tampilannya sederhana dan tidak ribet sama sekali."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar testi-card__avatar--3">HF</div>
+          <div>
+            <span class="testi-card__name">Ust. Habib Fauzi</span>
+            <span class="testi-card__role">Pengajar Tahfidz — Ponpes Darul Quran</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     FAQ
+     ========================================= -->
+<section class="faq">
+  <div class="container">
+    <div class="faq__inner">
+      <div class="faq__header reveal">
+        <p class="section-eyebrow" style="text-align:left">FAQ</p>
+        <h2 class="section-title" style="text-align:left">Pertanyaan yang<br>Sering Ditanyakan</h2>
+        <p class="section-desc" style="text-align:left;margin:0">Tidak menemukan jawaban yang Anda cari? Hubungi tim support kami.</p>
+      </div>
+
+      <div class="faq__list reveal reveal-delay-1">
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">
+            <span>Apakah SIAKAS-APP bisa digunakan tanpa internet?</span>
+            <span class="material-symbols-outlined faq__icon">expand_more</span>
+          </button>
+          <div class="faq__a">
+            <p>Ya! SIAKAS-APP menggunakan arsitektur Offline-First. Data tetap bisa diakses dan diinput meskipun tanpa koneksi internet. Sinkronisasi otomatis akan terjadi saat koneksi kembali.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">
+            <span>Berapa biaya berlangganan SIAKAS-APP?</span>
+            <span class="material-symbols-outlined faq__icon">expand_more</span>
+          </button>
+          <div class="faq__a">
+            <p>Kami menawarkan beberapa paket sesuai kebutuhan institusi, mulai dari paket Starter hingga Enterprise. Hubungi tim sales kami untuk mendapatkan penawaran terbaik sesuai skala institusi Anda.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">
+            <span>Apakah data kami aman dan terlindungi?</span>
+            <span class="material-symbols-outlined faq__icon">expand_more</span>
+          </button>
+          <div class="faq__a">
+            <p>Keamanan adalah prioritas utama kami. Seluruh data dienkripsi dengan standar 256-bit AES, disimpan di server berstandar ISO 27001, dan backup otomatis dilakukan setiap hari.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">
+            <span>Berapa lama proses onboarding institusi?</span>
+            <span class="material-symbols-outlined faq__icon">expand_more</span>
+          </button>
+          <div class="faq__a">
+            <p>Proses setup awal membutuhkan waktu 1–3 hari kerja. Tim kami akan membantu migrasi data dari sistem lama dan memberikan pelatihan gratis kepada seluruh staf administrasi Anda.</p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <button class="faq__q" aria-expanded="false">
+            <span>Apakah tersedia aplikasi mobile?</span>
+            <span class="material-symbols-outlined faq__icon">expand_more</span>
+          </button>
+          <div class="faq__a">
+            <p>Ya, SIAKAS-APP tersedia untuk Android dan iOS. Wali santri, guru, dan admin dapat mengakses fitur lengkap melalui aplikasi mobile yang responsif dan ringan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================
+     CTA
+     ========================================= -->
+<section class="cta">
+  <div class="container">
+    <div class="cta__card reveal">
+      <h2 class="cta__title">Siap Memodernisasi PonPes Anda?</h2>
+      <p class="cta__desc">Bergabunglah dengan ratusan sekolah lainnya yang telah merasakan kemudahan pengelolaan administrasi digital bersama Siakas-App.</p>
+      <div class="cta__actions">
+        <a href="#" class="btn-cta-primary">
+          <span class="material-symbols-outlined">call</span>
+          Hubungi Kami Sekarang
+        </a>
+        <a href="#" class="btn-cta-ghost">
+          <span class="material-symbols-outlined">sell</span>
+          Lihat Pricelist
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================
+     FOOTER
+     ========================================= -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="footer__brand-name">Darul App</p>
+        <p class="footer__brand-desc">Solusi Sistem Informasi Akademik terintegrasi untuk Pondok Pesantren dan Sekolah Islam di Indonesia.</p>
+      </div>
+
+      <div class="footer__links">
+        <div>
+          <h5 class="footer__col-title">Produk</h5>
+          <ul class="footer__link-list">
+            <li><a href="#">Fitur Utama</a></li>
+            <li><a href="#">Keamanan</a></li>
+            <li><a href="#">Harga</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__col-title">Perusahaan</h5>
+          <ul class="footer__link-list">
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+            <li><a href="#">Bantuan</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="footer__col-title">Media Sosial</h5>
+          <div class="footer__social">
+            <a href="#" class="social-icon" aria-label="Share">
+              <span class="material-symbols-outlined">share</span>
+            </a>
+            <a href="#" class="social-icon" aria-label="Camera">
+              <span class="material-symbols-outlined">camera</span>
+            </a>
+            <a href="#" class="social-icon" aria-label="Website">
+              <span class="material-symbols-outlined">public</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2024 Darul App. Seluruh Hak Cipta Dilindungi.</p>
+      <div class="footer__legal">
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Syarat &amp; Ketentuan</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- =========================================
+     BOTTOM NAV (Mobile)
+     ========================================= -->
+<nav class="bottom-nav" aria-label="Navigasi Bawah">
+  <a href="#" class="bnav-item bnav-item--active">
+    <span class="material-symbols-outlined">home</span>
+    <span class="bnav-item__label">Home</span>
+  </a>
+  <a href="#" class="bnav-item">
+    <span class="material-symbols-outlined">calendar_month</span>
+    <span class="bnav-item__label">Schedule</span>
+  </a>
+  <a href="#" class="bnav-item">
+    <span class="material-symbols-outlined">payments</span>
+    <span class="bnav-item__label">Salary</span>
+  </a>
+  <a href="#" class="bnav-item">
+    <span class="material-symbols-outlined">grade</span>
+    <span class="bnav-item__label">Grades</span>
+  </a>
+</nav>
+
+<script src="script.js"></script>
+<script>
+ 
+</script>
+
+</body>
+</html>
