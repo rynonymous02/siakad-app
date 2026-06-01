@@ -1,4 +1,4 @@
- const menuToggle = document.getElementById('menuToggle');
+const menuToggle = document.getElementById('menuToggle');
   const menuIcon   = document.getElementById('menuIcon');
   const mobileMenu = document.getElementById('mobileMenu');
 

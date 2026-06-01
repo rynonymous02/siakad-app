@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SIAKAS-APP — Transformasi Digital Pondok Pesantren</title>
+<title>SIAKAD-APP — Transformasi Digital Pondok Pesantren</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="assets/logo-siakad.svg">
 </head>
 <body>
 
@@ -16,12 +17,15 @@
 <header class="header">
   <div class="container header__inner">
 
-    <a href="#" class="header__logo">SIAKAS<span>-APP</span></a>
+    <a href="#" class="header__logo">
+      <img src="assets/logo-siakad.svg" alt="SIAKAD-APP Logo" class="header__logo-img">
+    </a>
 
     <nav class="header__nav" aria-label="Navigasi Utama">
       <a href="#"         class="nav-link nav-link--active">Beranda</a>
       <a href="#features" class="nav-link">Fitur</a>
       <a href="#efficiency" class="nav-link">Efisiensi</a>
+      <a href="#pricing" class="nav-link">Harga</a>
       <a href="#" class="btn-demo">
         <span class="material-symbols-outlined" style="font-size:18px">rocket_launch</span>
         Coba Demo
@@ -45,6 +49,7 @@
   <a href="#"          class="nav-link nav-link--active">Beranda</a>
   <a href="#features"  class="nav-link">Fitur</a>
   <a href="#efficiency" class="nav-link">Efisiensi</a>
+  <a href="#pricing" class="nav-link">Harga</a>
   <a href="#" class="btn-demo">
     <span class="material-symbols-outlined">rocket_launch</span>
     Coba Demo Gratis
@@ -73,7 +78,7 @@
       </p>
 
       <div class="hero__cta">
-        <a href="https://release-assets.githubusercontent.com/github-production-release-asset/1254042815/4484f42e-0fe1-4381-876f-1b9e1872fb44?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-30T10%3A41%3A14Z&rscd=attachment%3B+filename%3Dapp-release.apk&rsct=application%2Fvnd.android.package-archive&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-30T09%3A41%3A01Z&ske=2026-05-30T10%3A41%3A14Z&sks=b&skv=2018-11-09&sig=nHD1DcbMxuzEjxpFDhcJh1dXyV%2FMWOLlWGiiCZQwbHw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4MDEzNjAzNiwibmJmIjoxNzgwMTM0MjM2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OvsZvsVIckdQir1yXg9vcZXvWPZDlGW1mMhsADx4YJc&response-content-disposition=attachment%3B%20filename%3Dapp-release.apk&response-content-type=application%2Fvnd.android.package-archive" class="btn-primary">
+        <a href="https://github.com/rynonymous02/siakad-app/releases/download/siakad/app-release.apk" class="btn-primary">
           Coba Demo Gratis
           <span class="material-symbols-outlined">arrow_forward</span>
         </a>
@@ -84,22 +89,33 @@
     </div>
 
     <div class="hero__visual">
-      <div class="hero__phone-wrap">
+      <div class="hero__model-wrap">
         <img
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnQITdGauryinsqoT7wxqsjxuFScO1Jc9QjPuPg38Au_78wXnLZMAEgJH_n7DYEPa2y__mE4KvNt3FISGNywhkRDZt3Nv8ro1RexjG9C1HMe18-_IfjvdxmR80b3rKcF3XzKKAV8zp8edreFl4bOVb5HSft4x0v6SusxgQeeO6qkS53pQdGEN4HORu7WQq1bAMsKJES46u_BKHRCpFrhoKjSnrwY2pcfYZVHPe_va49ZkEeUXIOh28p4ikwKyvUAVadyaurgZl9UM"
-          alt="Tampilan aplikasi SIAKAS di smartphone"
-          class="hero__phone"
+          src="assets/model01.webp"
+          alt="Santri menggunakan SIAKAD-APP"
+          class="hero__model"
           loading="eager"
         >
 
-        <div class="hero__float-badge">
-          <div class="float-badge__icon">
-            <span class="material-symbols-outlined" style="font-size:20px">check_circle</span>
+        <div class="hero__badge hero__badge--1">
+          <div class="hero__badge-icon">
+            <span class="material-symbols-outlined" style="font-size:18px;color:var(--clr-primary)">task_alt</span>
           </div>
-          <div>
-            <span class="float-badge__label">SPP Terbayar ✓</span>
-            <span class="float-badge__sub">Oleh: Wali Santri Ahmad</span>
+          <span class="hero__badge-text">Progress Pembelajaran <span class="hero__badge-check">✓</span></span>
+        </div>
+
+        <div class="hero__badge hero__badge--2">
+          <div class="hero__badge-icon">
+            <span class="material-symbols-outlined" style="font-size:18px;color:var(--clr-primary)">task_alt</span>
           </div>
+          <span class="hero__badge-text">Absensi Murid <span class="hero__badge-check">✓</span></span>
+        </div>
+
+        <div class="hero__badge hero__badge--3">
+          <div class="hero__badge-icon">
+            <span class="material-symbols-outlined" style="font-size:18px;color:var(--clr-primary)">task_alt</span>
+          </div>
+          <span class="hero__badge-text">Pembayaran SPP <span class="hero__badge-check">✓</span></span>
         </div>
       </div>
     </div>
@@ -112,25 +128,11 @@
      ========================================= -->
 <section class="statsbar">
   <div class="container">
-    <div class="statsbar__inner">
-      <div class="statsbar__item reveal">
-        <span class="statsbar__value">500+</span>
-        <span class="statsbar__label">Institusi Terdaftar</span>
-      </div>
-      <div class="statsbar__divider"></div>
-      <div class="statsbar__item reveal reveal-delay-1">
-        <span class="statsbar__value">50k+</span>
-        <span class="statsbar__label">Santri Aktif</span>
-      </div>
-      <div class="statsbar__divider"></div>
-      <div class="statsbar__item reveal reveal-delay-2">
-        <span class="statsbar__value">Rp 2M+</span>
-        <span class="statsbar__label">Transaksi Diproses</span>
-      </div>
-      <div class="statsbar__divider"></div>
-      <div class="statsbar__item reveal reveal-delay-3">
-        <span class="statsbar__value">4.9 ★</span>
-        <span class="statsbar__label">Rating Pengguna</span>
+    <div class="statsbar__inner statsbar__inner--single">
+      <div class="statsbar__cta-text reveal">
+        <span class="statsbar__cta-icon">✦</span>
+        <span class="statsbar__cta-label">Jadilah Pelanggan Pertama Kami</span>
+        <span class="statsbar__cta-icon">✦</span>
       </div>
     </div>
   </div>
@@ -269,24 +271,14 @@
         </div>
       </div>
 
-      <!-- Right: stats -->
-      <div class="stats-grid reveal reveal-delay-1">
-        <div class="stat-card stat-card--primary">
-          <span class="stat-card__value">99.9%</span>
-          <span class="stat-card__label">Uptime Server</span>
-        </div>
-        <div class="stat-card stat-card--secondary">
-          <span class="stat-card__value">256-bit</span>
-          <span class="stat-card__label">Encryption</span>
-        </div>
-        <div class="stat-card stat-card--surface">
-          <span class="stat-card__value">10k+</span>
-          <span class="stat-card__label">Active Users</span>
-        </div>
-        <div class="stat-card stat-card--container">
-          <span class="stat-card__value">Real<br>time</span>
-          <span class="stat-card__label">Syncing</span>
-        </div>
+      <!-- Right: model image -->
+      <div class="efficiency__model-wrap reveal reveal-delay-1">
+        <img
+          src="assets/model02.webp"
+          alt="Tampilan aplikasi SIAKAD-APP"
+          class="efficiency__model-img"
+          loading="lazy"
+        >
       </div>
 
     </div>
@@ -301,7 +293,7 @@
     <div class="section-header reveal">
       <p class="section-eyebrow">Langkah Mudah</p>
       <h2 class="section-title">Mulai dalam 3 Langkah</h2>
-      <p class="section-desc">Tidak perlu keahlian teknis. Siapapun bisa mulai menggunakan SIAKAS-APP dengan cepat.</p>
+      <p class="section-desc">Tidak perlu keahlian teknis. Siapapun bisa mulai menggunakan SIAKAD-APP dengan cepat.</p>
     </div>
 
     <div class="steps">
@@ -357,7 +349,7 @@
     <div class="testi-grid">
       <div class="testi-card reveal">
         <div class="testi-card__stars">★★★★★</div>
-        <p class="testi-card__text">"SIAKAS-APP benar-benar mengubah cara kami mengelola administrasi. Proses yang dulu membutuhkan 3 hari kini selesai dalam hitungan menit."</p>
+        <p class="testi-card__text">"SIAKAD-APP benar-benar mengubah cara kami mengelola administrasi. Proses yang dulu membutuhkan 3 hari kini selesai dalam hitungan menit."</p>
         <div class="testi-card__author">
           <div class="testi-card__avatar testi-card__avatar--1">AS</div>
           <div>
@@ -395,6 +387,143 @@
 </section>
 
 <!-- =========================================
+     PRICING
+     ========================================= -->
+<section class="pricing" id="pricing">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="section-eyebrow">Transparan &amp; Terjangkau</p>
+      <h2 class="section-title">Pilih Paket yang Tepat</h2>
+      <p class="section-desc">Harga tetap di tahun pertama, perpanjangan lebih hemat. Tidak ada biaya tersembunyi.</p>
+    </div>
+
+    <div class="pricing__grid">
+
+      <!-- STARTER -->
+      <div class="pricing-card reveal">
+        <div class="pricing-card__header">
+          <div class="pricing-card__icon">
+            <span class="material-symbols-outlined">school</span>
+          </div>
+          <h3 class="pricing-card__name">Starter</h3>
+          <p class="pricing-card__tagline">Cocok untuk pesantren kecil yang baru memulai digitalisasi</p>
+        </div>
+        <div class="pricing-card__price-block">
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">Rp</span>
+            <span class="pricing-card__amount">1,5<span class="pricing-card__jt">jt</span></span>
+          </div>
+          <span class="pricing-card__period">/ tahun pertama</span>
+          <div class="pricing-card__renewal">
+            <span class="material-symbols-outlined" style="font-size:15px">autorenew</span>
+            Rp 500rb / tahun berikutnya
+          </div>
+        </div>
+        <div class="pricing-card__limit">
+          <span class="material-symbols-outlined">group</span>
+          Maks. <strong>100 santri/user</strong>
+        </div>
+        <ul class="pricing-card__features">
+          <li><span class="material-symbols-outlined">check_circle</span>Manajemen santri &amp; absensi</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Pembayaran SPP online</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Gratis Publish Aplikasi (Android)</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Input nilai &amp; rapor</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Notifikasi wali santri</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Gratis Pelatihan Untuk Staf</li>
+        </ul>
+        <a href="#" class="pricing-card__cta pricing-card__cta--outline">
+          Mulai Sekarang
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
+
+      <!-- REGULER (FEATURED) -->
+      <div class="pricing-card pricing-card--featured reveal reveal-delay-1">
+        <div class="pricing-card__badge">Paling Populer</div>
+        <div class="pricing-card__header">
+          <div class="pricing-card__icon pricing-card__icon--featured">
+            <span class="material-symbols-outlined">apartment</span>
+          </div>
+          <h3 class="pricing-card__name">Reguler</h3>
+          <p class="pricing-card__tagline">Ideal untuk pesantren &amp; sekolah menengah yang berkembang</p>
+        </div>
+        <div class="pricing-card__price-block">
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">Rp</span>
+            <span class="pricing-card__amount">2,5<span class="pricing-card__jt">jt</span></span>
+          </div>
+          <span class="pricing-card__period">/ tahun pertama</span>
+          <div class="pricing-card__renewal">
+            <span class="material-symbols-outlined" style="font-size:15px">autorenew</span>
+            Rp 1jt / tahun berikutnya
+          </div>
+        </div>
+        <div class="pricing-card__limit">
+          <span class="material-symbols-outlined">group</span>
+          Maks. <strong>250 santri/user</strong>
+        </div>
+        <ul class="pricing-card__features">
+          <li><span class="material-symbols-outlined">check_circle</span>Manajemen santri &amp; absensi</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Pembayaran SPP online</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Gratis Publish Aplikasi (Android)</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Input nilai &amp; rapor</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Notifikasi wali santri</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Gratis Pelatihan Untuk Staf</li>
+        </ul>
+        <a href="#" class="pricing-card__cta pricing-card__cta--primary">
+          Pilih Paket Ini
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
+
+      <!-- ENTERPRISE -->
+      <div class="pricing-card reveal reveal-delay-2">
+        <div class="pricing-card__header">
+          <div class="pricing-card__icon pricing-card__icon--enterprise">
+            <span class="material-symbols-outlined">domain</span>
+          </div>
+          <h3 class="pricing-card__name">Enterprise</h3>
+          <p class="pricing-card__tagline">Untuk institusi besar dengan kebutuhan pengelolaan skala penuh</p>
+        </div>
+        <div class="pricing-card__price-block">
+          <div class="pricing-card__price">
+            <span class="pricing-card__currency">Rp</span>
+            <span class="pricing-card__amount">Kita Diskusi<span class="pricing-card__jt"></span></span>
+          </div>
+          <span class="pricing-card__period">/ tahun pertama</span>
+          <div class="pricing-card__renewal">
+            <span class="material-symbols-outlined" style="font-size:15px">autorenew</span>
+            
+          </div>
+        </div>
+        <div class="pricing-card__limit">
+          <span class="material-symbols-outlined">groups</span>
+          <strong>250+ santri/user</strong> (tak terbatas)
+        </div>
+        <ul class="pricing-card__features">
+          <li><span class="material-symbols-outlined">check_circle</span>Semua fitur Reguler</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Kapasitas santri tak terbatas</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Custom branding &amp; domain</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Integrasi API eksternal</li>
+          <li><span class="material-symbols-outlined">check_circle</span>Dedicated account manager</li>
+          <li><span class="material-symbols-outlined">check_circle</span>SLA &amp; uptime garansi</li>
+        </ul>
+        <a href="#" class="pricing-card__cta pricing-card__cta--outline">
+          Hubungi Sales
+          <span class="material-symbols-outlined">call</span>
+        </a>
+      </div>
+
+    </div>
+
+    <p class="pricing__note reveal">
+      <span class="material-symbols-outlined" style="font-size:18px;vertical-align:middle">info</span>
+      Semua paket sudah termasuk onboarding gratis, pelatihan staf, dan migrasi data dari sistem lama.
+    </p>
+  </div>
+</section>
+
+<!-- =========================================
      FAQ
      ========================================= -->
 <section class="faq">
@@ -409,17 +538,17 @@
       <div class="faq__list reveal reveal-delay-1">
         <div class="faq__item">
           <button class="faq__q" aria-expanded="false">
-            <span>Apakah SIAKAS-APP bisa digunakan tanpa internet?</span>
+            <span>Apakah SIAKAD-APP bisa digunakan tanpa internet?</span>
             <span class="material-symbols-outlined faq__icon">expand_more</span>
           </button>
           <div class="faq__a">
-            <p>Ya! SIAKAS-APP menggunakan arsitektur Offline-First. Data tetap bisa diakses dan diinput meskipun tanpa koneksi internet. Sinkronisasi otomatis akan terjadi saat koneksi kembali.</p>
+            <p>Ya! SIAKAD-APP menggunakan arsitektur Offline-First. Data tetap bisa diakses dan diinput meskipun tanpa koneksi internet. Sinkronisasi otomatis akan terjadi saat koneksi kembali.</p>
           </div>
         </div>
 
         <div class="faq__item">
           <button class="faq__q" aria-expanded="false">
-            <span>Berapa biaya berlangganan SIAKAS-APP?</span>
+            <span>Berapa biaya berlangganan SIAKAD-APP?</span>
             <span class="material-symbols-outlined faq__icon">expand_more</span>
           </button>
           <div class="faq__a">
@@ -453,7 +582,7 @@
             <span class="material-symbols-outlined faq__icon">expand_more</span>
           </button>
           <div class="faq__a">
-            <p>Ya, SIAKAS-APP tersedia untuk Android dan iOS. Wali santri, guru, dan admin dapat mengakses fitur lengkap melalui aplikasi mobile yang responsif dan ringan.</p>
+            <p>Ya, SIAKAD-APP tersedia untuk Android dan iOS. Wali santri, guru, dan admin dapat mengakses fitur lengkap melalui aplikasi mobile yang responsif dan ringan.</p>
           </div>
         </div>
       </div>
@@ -468,7 +597,7 @@
   <div class="container">
     <div class="cta__card reveal">
       <h2 class="cta__title">Siap Memodernisasi PonPes Anda?</h2>
-      <p class="cta__desc">Bergabunglah dengan ratusan sekolah lainnya yang telah merasakan kemudahan pengelolaan administrasi digital bersama Siakas-App.</p>
+      <p class="cta__desc">Bergabunglah dengan ratusan sekolah lainnya yang telah merasakan kemudahan pengelolaan administrasi digital bersama Siakad-App.</p>
       <div class="cta__actions">
         <a href="#" class="btn-cta-primary">
           <span class="material-symbols-outlined">call</span>
@@ -542,27 +671,7 @@
   </div>
 </footer>
 
-<!-- =========================================
-     BOTTOM NAV (Mobile)
-     ========================================= -->
-<nav class="bottom-nav" aria-label="Navigasi Bawah">
-  <a href="#" class="bnav-item bnav-item--active">
-    <span class="material-symbols-outlined">home</span>
-    <span class="bnav-item__label">Home</span>
-  </a>
-  <a href="#" class="bnav-item">
-    <span class="material-symbols-outlined">calendar_month</span>
-    <span class="bnav-item__label">Schedule</span>
-  </a>
-  <a href="#" class="bnav-item">
-    <span class="material-symbols-outlined">payments</span>
-    <span class="bnav-item__label">Salary</span>
-  </a>
-  <a href="#" class="bnav-item">
-    <span class="material-symbols-outlined">grade</span>
-    <span class="bnav-item__label">Grades</span>
-  </a>
-</nav>
+
 
 <script src="script.js"></script>
 <script>
